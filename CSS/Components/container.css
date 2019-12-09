@@ -1,0 +1,36 @@
+.container{
+width: 700px;
+margin : 40px auto;
+
+}
+
+
+@media (max-width: 700px) {
+   
+   .container{ 
+       width: 450px; 
+                     }
+}
+
+@media (max-width: 450px) {
+   
+   .container{ 
+       width: 340px;
+   }
+}
+
+
+.list-horizontal{
+   list-style: none;
+   padding-left: 10px;
+}
+
+.list-horizontal li{
+	display: inline;
+    padding: 10px ;
+}
+
+.list-horizontal i{
+	font-size: 22px ; 
+	color : #3e64ff;
+}
